@@ -38,7 +38,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes ={HTTPServiceTestConfig.class, ReportGeneratorServiceImpl.class})
 @SpringBootApplication()
-class ReportgeneratorApplicationTests {
+public class ReportGeneratorApplicationTests {
 
 	@Autowired
 	ReportGeneratorService reportGeneratorService;
